@@ -10,11 +10,11 @@ body {
     display: grid;
     place-items: center;
     min-height: 100vh;
-    background-color: #0e0e0e;
+    background-color: #FFF7E9;
 }
 
-.container {
-    background-image: linear-gradient(to top right, #ffa500, #ff0000);
+.containerr {
+    background-image: linear-gradient(to top right, #5F9DF7, #1746A2);
     padding: 3rem;
     border-radius: 1rem;
     position: relative;

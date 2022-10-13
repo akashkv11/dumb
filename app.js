@@ -1,4 +1,4 @@
-const container = document.querySelector('.container');
+const container = document.querySelector('.containerr');
 const yes_btn = document.querySelector('.yes_btn');
 const no_btn = document.querySelector('.no_btn');
 var clickTimes = 0;
@@ -20,7 +20,7 @@ if (clickTimes < 5) {
     container.innerHTML = `<h2>
                             I knew it!!! <br>
                             Lool 😂😂😂 <br>
-                            Please Subscribe...
+            
                             </h2>`
 }
     
@@ -30,6 +30,6 @@ yes_btn.addEventListener('click', () => {
     container.innerHTML = `<h2>
                             I knew it!!! <br>
                             Lool 😂😂😂 <br>
-                            Please Subscribe...
+                        
                             </h2>`
 })
